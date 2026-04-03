@@ -1,7 +1,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: raj-pod-access
+  name: raj-pod-access-sa
   namespace: team3-ns
 subjects:
 - kind: User
