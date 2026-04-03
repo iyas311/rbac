@@ -8,6 +8,6 @@ subjects:
   name: testing
   apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: Role
+  kind: ClusterRole
   name: testing-role
   apiGroup: rbac.authorization.k8s.io
