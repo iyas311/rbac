@@ -12,5 +12,5 @@ subjects:
   namespace: team3-ns
 roleRef:
   kind: Role
-  name: pod-manager
+  name: pod-manager-sa
   apiGroup: rbac.authorization.k8s.io

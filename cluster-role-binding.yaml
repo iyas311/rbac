@@ -11,5 +11,5 @@ subjects:
   namespace: team3-ns
 roleRef:
   kind: ClusterRole
-  name: cluster-manager
+  name: cluster-manager-sa
   apiGroup: rbac.authorization.k8s.io
