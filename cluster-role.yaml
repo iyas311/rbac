@@ -4,5 +4,6 @@ metadata:
   name: cluster-manager
 rules:
 - apiGroups: ["","apps"]
-  resources: ["nodes", "namespaces","pods","deployments",statefulsets"]
-  verbs: ["get", "list", "watch", "create", "delete"]
+  resources: ["nodes", "namespaces","pods","deployments",statefulsets","services"]
+  verbs: ["get", "list", "watch", "create", "delete","update","patch"]
+

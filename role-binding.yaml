@@ -7,6 +7,9 @@ subjects:
 - kind: User
   name: raj
   apiGroup: rbac.authorization.k8s.io
+- kind: ServiceAccount
+  name: iyas-sa
+  namespace: team3-ns
 roleRef:
   kind: Role
   name: pod-manager
